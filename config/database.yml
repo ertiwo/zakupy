@@ -1,0 +1,15 @@
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: zakupy-dev
+  pool: 5
+  username: erti
+  password: erti
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: zakupy-test
+  pool: 5
+  username: erti
+  password: erti
