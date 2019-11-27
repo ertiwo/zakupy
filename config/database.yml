@@ -3,13 +3,15 @@ development:
   adapter: postgresql
   encoding: unicode
   database: zakupy-dev
+  host: localhost
   pool: 5
-  username: erti
-  password: erti
+  username: zakupy
+  password: zakupy
 test:
   adapter: postgresql
   encoding: unicode
   database: zakupy-test
+  host: localhost
   pool: 5
-  username: erti
-  password: erti
+  username: zakupy
+  password: zakupy
