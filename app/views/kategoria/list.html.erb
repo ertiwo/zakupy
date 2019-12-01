@@ -1,1 +1,5 @@
-<h1> Misio </h1>
+<ul class="">
+  <% @kategorie.each do |kategoria| %>
+  <li><%= kategoria.name %></li>
+  <% end %>
+</ul>
