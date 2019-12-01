@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  get 'welcome/index'
-  root 'welcome#index'
+  root "kategoria#list"
+  get "product", to: "product#list"
 end
